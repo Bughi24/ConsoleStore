@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ConsoleStore.Models.ShoppingCartItem>
+
+<h2>Your Cart</h2>
+
+@if (!Model.Any())
+{
+    <p>Your cart is empty.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Product.Price</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.Product.Price* item.Quantity) €</td>
+                    <td>
+                        <a class="btn btn-danger btn-sm"
+                           href ="/Cart/Remove/@item.Id">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/Checkout" class="btn btn-success btn-lg">Checkout</a>
+}

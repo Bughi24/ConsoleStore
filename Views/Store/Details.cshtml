@@ -1,0 +1,44 @@
+﻿@model ConsoleStore.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-4">
+    <a href ="/Store" class="btn btn-secondary mb-3">Back to product</a>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.ImagePath" class="detail-image"/>
+        </div>
+
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+
+            <h4 class="text-success fw-bold">@Model.Price €</h4>
+            <p class="mt-3">@Model.Description</p>
+
+            @if (!string.IsNullOrEmpty(Model.Specification))
+            {
+                <h5 class="mt-4">Specifications:</h5>
+                <p>@Model.Specification</p>
+            }
+            <p><strong>Stock:</strong> @Model.Stock</p>
+            <p><strong>Supplier:</strong> @Model.Supplier</p>
+            <p><strong>Delivery:</strong> @Model.DeliveryMethod</p>
+
+            <p><strong>Category:</strong> @Model.Category?.Name</p>
+
+            @if (!string.IsNullOrEmpty(Model.PdfPath))
+            {
+                <div class="mt-3">
+                    <a href="@Model.PdfPath" target="_blank" class="btn btn-outline-dark w-100">
+                        View Product Documentation (PDF)
+                    </a>
+                </div>
+            }
+
+            <a href="/Cart/Add/@Model.ProductId"class="btn btn-primary mt-3 w-100">Add to Cart</a>
+        </div>
+    </div>
+</div>

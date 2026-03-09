@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ConsoleStore.Models.FavoriteItem>
+
+@{
+    ViewData["Title"] = "My Wishlist";
+}
+
+<h2 class="mb-4">My Wishlist</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">You have no favourite produts yet.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@item.Product.ImagePath" class="product-image" />
+
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Product.Name</h5>
+                        <p class="card-text text-muted">@item.Product.Price €</p>
+
+                        <a href="/Store/Details/@item.ProductId" class="btn btn-primary btn-sm w-100 mb-2">
+                            View details
+                        </a>
+
+                        <a href="/FavoriteItems/Remove/@item.Id" class="btn btn-outline-danger btn-sm w-100">
+                            Remove from wishlist
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

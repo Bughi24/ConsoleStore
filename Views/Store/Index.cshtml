@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ConsoleStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Store";
+}
+
+<h2 class="mb-4">Products</h2>
+
+<form method="get" class="mb-4">
+    <div class="col-md-3 mb-2">
+        <select name="categoryId" class="form-select" onchange="this.form.submit()">
+            <option value ="">All categories</option>
+            @foreach (var cat in ViewBag.Categories)
+             {
+                <option value="@cat.CategoryId"
+                selected="@(ViewBag.SelectedCategory == cat.CategoryId)">
+                @cat.Name
+            </option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <input type="text" name="search" value="@ViewBag.Search"
+            class="form-control" placeholder="Search products..." >
+    </div>
+
+    <div class="col-md-3">
+        <button class="btn btn-primary w-100" type ="submit">
+            <i class="bi bi-search"></i> Search
+        </button>
+    </div>
+
+    <div class="col-md-4 mb-2">
+        <select name="sortOrder" class="form-select" onchange="this.form.submit()">
+            <option value="">Sort by</option>
+            <option value="price_asc" select=@(ViewBag.SortOrder == "price_asc" ? "selected" : "")>Price: Low -> High</option>
+            <option value="price_desc" select=@(ViewBag.SortOrder == "price_desc" ? "selected" : "")>Price: High → Low</option>
+        </select>
+    </div>
+</form>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="@item.ImagePath" class="product-image" "/>
+
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <p class="card-text text-muted">@item.Price €</p>
+                    <a href="/Store/Details/@item.ProductId" class="btn btn-primary w-100">Details</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-controller="FavoriteItems" asp-action="Add" asp-route-productId="@item.ProductId" class="btn btn-outline-danger w-100">
+                        Add to Wishlist
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

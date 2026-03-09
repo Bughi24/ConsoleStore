@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ConsoleStore.Models.Order>
+
+<h2>Your Orders</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Order #</th>
+            <th>Date</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.OrderId</td>
+                <td>@o.OrderDat.ToString("dd MMM yyyy HH:mm")</td>
+                <td>@o.Items.Sum(i => i.Price * i.Quantity) €</td>
+                <td>
+                    <a class="btn btn-primary btn-sm"
+                       asp-controller="Orders"
+                       asp-action="Details"
+                       asp-route-id="@o.OrderId">
+                        View
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

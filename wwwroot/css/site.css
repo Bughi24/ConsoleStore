@@ -1,0 +1,87 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f5f7;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.navbar-custom {
+    background-color: #121212 !important;
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #d0d0d0 !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+    .nav-link:hover {
+        color: #ffffff !important;
+    }
+
+footer {
+    background-color: #121212;
+    padding: 20px 0;
+    color: #ccc;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s ease-in-out;
+}
+
+.card-img-top {
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.form-select {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width : 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.detail-image {
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
