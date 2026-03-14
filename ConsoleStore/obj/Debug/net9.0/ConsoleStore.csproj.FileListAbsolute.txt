@@ -1106,7 +1106,6 @@ C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\u13ltfm0kr-{0}-p1r7rtw6yf-p1r7rtw6yf.gz
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\92llhqo8zd-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\ei20t7y91p-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\tq24v63i4c-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -1182,3 +1181,5 @@ C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\ConsoleStore.pdb
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\ConsoleStore.genruntimeconfig.cache
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\ref\ConsoleStore.dll
+C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\u13ltfm0kr-{0}-6u8v9axk3y-6u8v9axk3y.gz

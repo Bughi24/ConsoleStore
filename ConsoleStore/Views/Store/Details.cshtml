@@ -4,41 +4,142 @@
     ViewData["Title"] = "Product Details";
 }
 
-<div class="container mt-4">
-    <a href ="/Store" class="btn btn-secondary mb-3">Back to product</a>
+<div class="container mt-4 reveal-anim">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <a href="/Store" class="btn btn-sm btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Back to Store
+        </a>
+    </nav>
 
-    <div class="row">
-        <div class="col-md-6">
-            <img src="@Model.ImagePath" class="detail-image"/>
+    <div class="row g-5">
+        <div class="col-md-6 text-center">
+            <div class="product-image-holder p-4 bg-white rounded shadow-sm">
+                <img src="@Model.ImagePath" class="img-fluid detail-image" alt="@Model.Name" />
+            </div>
         </div>
 
         <div class="col-md-6">
-            <h2>@Model.Name</h2>
+            <div class="ps-md-3">
+                <span class="badge bg-info mb-2">@Model.Category?.Name</span>
+                <h1 class="fw-bold mb-3">@Model.Name</h1>
 
-            <h4 class="text-success fw-bold">@Model.Price €</h4>
-            <p class="mt-3">@Model.Description</p>
+                <h2 class="text-success fw-bold mb-4">@Model.Price €</h2>
 
-            @if (!string.IsNullOrEmpty(Model.Specification))
+                <div class="description-section mb-4">
+                    <h5 class="fw-bold text-muted small text-uppercase">Description</h5>
+                    <p class="lead-sm">@Model.Description</p>
+                </div>
+
+                <div class="card bg-light border-0 rounded-4 mb-4">
+                    <div class="card-body p-4">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <p class="mb-1 text-muted">Stock Status</p>
+                                @if (Model.Stock > 0)
+                                {
+                                    <span class="text-success fw-bold"><i class="bi bi-check-circle"></i> In Stock (@Model.Stock)</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger fw-bold"><i class="bi bi-x-circle"></i> Out of Stock</span>
+                                }
+                            </div>
+                            <div class="col-6">
+                                <a href="/Cart/Add/@Model.ProductId" class="btn btn-primary btn-lg w-100 shadow">
+                                    <i class="bi bi-cart-plus"></i> Add to Cart
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specs-table mb-4">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <td class="text-muted w-25">Supplier:</td>
+                            <td class="fw-bold">@Model.Supplier</td>
+                        </tr>
+                        <tr>
+                            <td class="text-muted">Delivery:</td>
+                            <td class="fw-bold">@Model.DeliveryMethod</td>
+                        </tr>
+                        @if (!string.IsNullOrEmpty(Model.Specification))
+                        {
+                            <tr>
+                                <td class="text-muted">Tech Specs:</td>
+                                <td class="fw-bold">@Model.Specification</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+
+                <div class="accordion" id="rleAccordion">
+                    <div class="accordion-item border-0 bg-transparent">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-light rounded shadow-sm small py-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRLE">
+                                View Compressed Data (RLE)
+                            </button>
+                        </h2>
+                        <div id="collapseRLE" class="accordion-collapse collapse" data-bs-parent="#rleAccordion">
+                            <div class="accordion-body small text-break text-muted">
+                                @ViewBag.CompressedDescription
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5" />
+
+    @if (!string.IsNullOrEmpty(Model.VideoPath))
+    {
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10">
+                <div class="section-title text-center mb-4">
+                    <h3 class="fw-bold">Product Showcase</h3>
+                    <p class="text-muted">Discover the features of @Model.Name in action.</p>
+                </div>
+                <div class="ratio ratio-16x9 shadow-lg rounded-4 overflow-hidden border border-5 border-white">
+                    <video controls poster="@Model.ImagePath">
+                        <source src="@Model.VideoPath" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.PdfPath))
+    {
+        <div class="alert alert-dark d-flex align-items-center justify-content-between p-4 rounded-4" role="alert">
+            <div>
+                <h5 class="mb-1 fw-bold"><i class="bi bi-file-earmark-pdf me-2"></i>Product Documentation</h5>
+                <p class="mb-0 small">Download the full technical manual and safety instructions.</p>
+            </div>
+            <a href="@Model.PdfPath" target="_blank" class="btn btn-light px-4">Download PDF</a>
+        </div>
+    }
+
+    <div class="mt-5 pb-5">
+        <h3 class="fw-bold mb-4">You might also like</h3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            @foreach (var item in ViewBag.SimilarProducts)
             {
-                <h5 class="mt-4">Specifications:</h5>
-                <p>@Model.Specification</p>
-            }
-            <p><strong>Stock:</strong> @Model.Stock</p>
-            <p><strong>Supplier:</strong> @Model.Supplier</p>
-            <p><strong>Delivery:</strong> @Model.DeliveryMethod</p>
-
-            <p><strong>Category:</strong> @Model.Category?.Name</p>
-
-            @if (!string.IsNullOrEmpty(Model.PdfPath))
-            {
-                <div class="mt-3">
-                    <a href="@Model.PdfPath" target="_blank" class="btn btn-outline-dark w-100">
-                        View Product Documentation (PDF)
-                    </a>
+                <div class="col card-hover-anim">
+                    <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                        <div class="img-container bg-light" style="height: 160px; display: flex; align-items: center; justify-content: center;">
+                            <img src="@item.ImagePath" class="p-3" style="max-height: 100%; max-width: 100%; object-fit: contain;" alt="@item.Name">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold text-truncate">@item.Name</h6>
+                            <p class="text-success fw-bold mb-3">@item.Price €</p>
+                            <a href="/Store/Details/@item.ProductId" class="btn btn-sm btn-outline-primary w-100 rounded-pill">View Details</a>
+                        </div>
+                    </div>
                 </div>
             }
-
-            <a href="/Cart/Add/@Model.ProductId"class="btn btn-primary mt-3 w-100">Add to Cart</a>
         </div>
     </div>
 </div>

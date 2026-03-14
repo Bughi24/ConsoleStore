@@ -55,6 +55,10 @@
                 <label>Product PDF description</label>
                 <input type="file" name="pdfFile" class="form-control" accept=".pdf" />
             </div>
+            <div class="form-group mb-3">
+                <label class="fw-bold text-primary">Upload Presentation Video</label>
+                <input type="file" name="videoFile" class="form-control" accept="video/mp4,video/webm" />
+            </div>
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
                 <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>

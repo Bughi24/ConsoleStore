@@ -4,16 +4,21 @@ using ConsoleStore.Data;
 using Microsoft.Data.SqlClient;
 using ConsoleStore.Service;
 
+
 namespace ConsoleStore.Controllers
 {
     public class StoreController : Controller
     {
         private readonly ConsoleStoreContext _context;
         private readonly TfIdfService _tfidf;
-        public StoreController(ConsoleStoreContext context, TfIdfService tfIdf)
+        private readonly AutocompleteService _autocompleteService;
+        private readonly RleCompressionService _rle;
+        public StoreController(ConsoleStoreContext context, TfIdfService tfIdf, AutocompleteService autocompleteService, RleCompressionService rle)
         {
             _context = context;
             _tfidf = tfIdf;
+            _autocompleteService = autocompleteService;
+            _rle = rle;
         }
 
         //GET: /Store
@@ -58,7 +63,27 @@ namespace ConsoleStore.Controllers
 
             if (product == null) 
                 return NotFound();
+
+            var allProducts = await _context.Products.ToListAsync();
+
+            var similarProducts = _tfidf.GetSimilarProducts(product, allProducts);
+
+            ViewBag.SimilarProducts = similarProducts;
+            ViewBag.CompressedDescription = _rle.Compress(product.Description);
             return View(product);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Autocomplete(string term)
+        {
+            if (string.IsNullOrWhiteSpace(term))
+                return Json(new List<string>());
+
+            var products = await _context.Products.ToListAsync();
+
+            var suggestions = _autocompleteService.GetSuggestions(term, products);
+
+            return Json(suggestions);
         }
     }
 }

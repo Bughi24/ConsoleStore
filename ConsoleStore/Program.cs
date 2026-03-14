@@ -17,6 +17,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(option =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<TfIdfService>();
+builder.Services.AddScoped<AutocompleteService>();
+builder.Services.AddScoped<RleCompressionService>();
 
 
 

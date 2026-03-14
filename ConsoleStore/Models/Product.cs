@@ -34,6 +34,8 @@ namespace ConsoleStore.Models
         [StringLength(255)]
         public string? ImagePath { get; set; }
 
+        public string? VideoPath { get; set; }
+
         [Display(Name = "Category")]
         public int CategoryId { get; set; }
         public Category? Category { get; set; }

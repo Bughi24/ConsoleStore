@@ -1,4 +1,4 @@
-html {
+﻿html {
     font-size: 14px;
     position: relative;
     min-height: 100%;
@@ -14,8 +14,10 @@ body {
     margin-bottom: 60px;
     font-family: 'Poppins', sans-serif;
     background-color: #f4f5f7;
+    color: #333;
 }
 
+/* Focus state pentru accesibilitate */
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
@@ -24,9 +26,11 @@ body {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+/* Navbar */
 .navbar-custom {
     background-color: #121212 !important;
     padding: 12px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .navbar-brand {
@@ -39,18 +43,24 @@ body {
     color: #d0d0d0 !important;
     font-weight: 500;
     margin-right: 15px;
+    transition: color 0.2s;
 }
 
     .nav-link:hover {
         color: #ffffff !important;
     }
 
+/* Footer */
 footer {
     background-color: #121212;
     padding: 20px 0;
     color: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
+/* Cards */
 .card:hover {
     transform: translateY(-5px);
     transition: 0.2s ease-in-out;
@@ -61,13 +71,9 @@ footer {
     object-fit: cover;
 }
 
-.form-select {
-    max-width: 250px;
-    margin-bottom: 20px;
-}
-
+/* Store Images */
 .product-image {
-    width : 100%;
+    width: 100%;
     height: 220px;
     object-fit: contain;
     background-color: #ffffff;
@@ -77,11 +83,165 @@ footer {
 
 .detail-image {
     width: 100%;
-    max-width: 450px; 
+    max-width: 450px;
     height: auto;
     object-fit: contain;
     background-color: #fff;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Autocomplete Suggestions */
+#suggestions {
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+    #suggestions li {
+        padding: 10px 15px;
+        cursor: pointer;
+        list-style: none;
+        transition: background 0.2s;
+    }
+
+        #suggestions li:hover {
+            background-color: #f1f1f1;
+        }
+
+/* Similar Products Container (Corectat) */
+.img-container {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+    /* Am adăugat acolada de închidere aici */
+
+    .img-container img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 2.8rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.similar-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .similar-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
+    }
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+    .btn-primary:hover {
+        filter: brightness(1.1);
+        letter-spacing: 0.5px;
+    }
+
+
+.order-header {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 6px solid #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.order-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.table-order-items thead {
+    background-color: #f1f3f5;
+}
+
+.product-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.total-section {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: right;
+}
+
+/* Definim animația de apariție */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Clasa pe care o vom aplica elementelor */
+.reveal-anim {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Animație pentru carduri la trecerea mouse-ului */
+.card-hover-anim {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+    .card-hover-anim:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+    }
+
+/* Delay-uri pentru un efect de cascadă (opțional) */
+.delay-1 {
+    animation-delay: 0.1s;
+}
+
+.delay-2 {
+    animation-delay: 0.2s;
+}
+
+.delay-3 {
+    animation-delay: 0.3s;
 }
