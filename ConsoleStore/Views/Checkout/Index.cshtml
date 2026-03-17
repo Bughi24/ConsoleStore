@@ -1,40 +1,125 @@
-﻿<h2>Checkout</h2>
+﻿@model IEnumerable<ConsoleStore.Models.ShoppingCartItem>
 
-<div id="statusMessage" class="alert d-none"></div>
+<div class="container py-5">
+    <h2 class="fw-bold mb-4 text-center text-md-start">
+        <i class="bi bi-shield-lock me-2"></i>Secure Checkout
+    </h2>
 
-<form id="checkoutForm" class="col-md-6">
-    <input id="CustomerName" class="form-control mb-2" placeholder="Name" required />
-    <input id="Address" class="form-control mb-2" placeholder="Address" required />
-    <input id="City" class="form-control mb-2" placeholder="City" required />
-    <input id="Phone" class="form-control mb-3" placeholder="Phone" required />
-</form>
+    <div id="statusMessage" class="alert d-none shadow-sm mb-4"></div>
 
-<div id="paypal-button-container"></div>
+    <div class="row g-4">
+        <div class="col-md-7">
+            <div class="card border-0 shadow-sm rounded-3">
+                <div class="card-header bg-white py-3">
+                    <h5 class="m-0 fw-bold"><i class="bi bi-truck me-2"></i>Shipping Information</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form id="checkoutForm">
+                        <div class="form-floating mb-3">
+                            <input id="CustomerName" class="form-control" placeholder="Full Name" required />
+                            <label for="CustomerName">Full Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input id="Address" class="form-control" placeholder="Street Address" required />
+                            <label for="Address">Street Address</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input id="City" class="form-control" placeholder="City" required />
+                                    <label for="City">City</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3">
+                                    <input id="Phone" class="form-control" placeholder="Phone Number" required />
+                                    <label for="Phone">Phone Number</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="card border-0 shadow-sm rounded-3 bg-light h-100">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-4">Order Summary</h5>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Items Total:</span>
+                        <span class="fw-bold">@ViewBag.TotalEUR €</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4 border-bottom pb-2">
+                        <span>Shipping:</span>
+                        <span class="text-success fw-bold">Free</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <span class="h5 m-0 fw-bold">Total to Pay:</span>
+                        <span class="h4 m-0 text-primary fw-bolder">@ViewBag.TotalEUR €</span>
+                    </div>
+
+                    <hr />
+
+                    <p class="small text-muted mb-3 text-center">
+                        <i class="bi bi-info-circle me-1"></i>
+                        Please fill the form to enable payment.
+                    </p>
+
+                    <div id="paypal-button-container" class="mt-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-control:focus {
+        border-color: #ffc439;
+        box-shadow: 0 0 0 0.25rem rgba(255, 196, 57, 0.25);
+    }
+    #paypal-button-container {
+        max-width: 100%;
+    }
+</style>
 
 <script src="https://www.paypal.com/sdk/js?client-id=AbDUCGxYHadgDsyRwYEu6EGUFx_MmViTEbndgN7DjOoTHXjcM0k3N8HlTVk75utymrLD2-qn2L_QDa7i&currency=EUR"></script>
 
 <script>
     paypal.Buttons({
+        style: {
+            layout: 'vertical',
+            color:  'gold',
+            shape:  'pill',
+            label:  'paypal'
+        },
         createOrder: (data, actions) => {
             const name = document.getElementById("CustomerName").value.trim();
             const address = document.getElementById("Address").value.trim();
             const city = document.getElementById("City").value.trim();
             const phone = document.getElementById("Phone").value.trim();
+            const statusMsg = document.getElementById("statusMessage");
 
             if(!name || !address || !city || !phone){
-                document.getElementById("statusMessage").className = "alert alert-danger";
-                document.getElementById("statusMessage").innerText = "Complete all fields before proceding with Paypal";
+                statusMsg.className = "alert alert-danger shadow-sm d-block";
+                statusMsg.innerText = "⚠️ Please complete all shipping fields first.";
+                window.scrollTo(0, 0);
                 return;
             }
 
+            statusMsg.className = "alert d-none"; 
+
             return actions.order.create({
                 purchase_units: [ {
-                    amount: { value:"@ViewBag.TotalEUR"}
+                    amount: { value: "@ViewBag.TotalEUR".replace(',', '.') }
                 }]
             })
         },
 
         onApprove: async (data, actions) => {
+            const statusMsg = document.getElementById("statusMessage");
+            statusMsg.className = "alert alert-info d-block";
+            statusMsg.innerText = "Processing your order, please wait...";
 
             const orderData = {
                 CustomerName: document.getElementById("CustomerName").value,
@@ -53,18 +138,20 @@
             const result = await response.json();
 
             if (result.success) {
-                document.getElementById("statusMessage").className = "alert alert-success";
-                document.getElementById("statusMessage").innerText =
-                    "Payment completed! Order ID: " + result.orderId;
+                statusMsg.className = "alert alert-success d-block";
+                statusMsg.innerHTML = `<strong>Success!</strong> Your payment was processed. Order ID: <b>#${result.orderId}</b>`;
+                document.getElementById("checkoutForm").reset();
+                setTimeout(() => { window.location.href = "/Orders/Details/" + result.orderId; }, 2500);
             } else {
-                document.getElementById("statusMessage").className = "alert alert-danger";
-                document.getElementById("statusMessage").innerText = "Payment failed!";
+                statusMsg.className = "alert alert-danger d-block";
+                statusMsg.innerText = "Payment failed! Please check stock or card balance.";
             }
         },
 
         onCancel: () => {
-            document.getElementById("statusMessage").className = "alert alert-warning";
-            document.getElementById("statusMessage").innerText = "Payment was cancelled.";
+            const statusMsg = document.getElementById("statusMessage");
+            statusMsg.className = "alert alert-warning d-block";
+            statusMsg.innerText = "Transaction cancelled.";
         }
 
     }).render("#paypal-button-container");

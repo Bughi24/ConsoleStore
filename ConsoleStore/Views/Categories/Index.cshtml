@@ -1,41 +1,109 @@
 ﻿@model IEnumerable<ConsoleStore.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Categories Management";
 }
 
-<h1>Index</h1>
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h1 class="fw-bold text-dark">Product Categories</h1>
+            <p class="text-muted">Organize your products into logical groups for better browsing.</p>
+        </div>
+        <a asp-action="Create" class="btn btn-primary btn-lg shadow-sm rounded-pill">
+            <i class="bi bi-folder-plus me-2"></i>New Category
+        </a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CategoryId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CategoryId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th class="ps-4 py-3" style="width: 25%;">Category Name</th>
+                                    <th class="py-3">Description</th>
+                                    <th class="py-3 text-center" style="width: 200px;">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="ps-4">
+                                            <div class="d-flex align-items-center">
+                                                <div class="category-icon-circle me-3">
+                                                    <i class="bi bi-tag-fill text-primary"></i>
+                                                </div>
+                                                <span class="fw-bold text-dark">@item.Name</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-muted">
+                                            @if (!string.IsNullOrEmpty(item.Description))
+                                            {
+                                                @item.Description
+                                            }
+                                            else
+                                            {
+                                                <span class="fst-italic opacity-50">No description provided</span>
+                                            }
+                                        </td>
+                                        <td class="text-center pe-4">
+                                            <div class="btn-group shadow-sm rounded">
+                                                <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-white btn-sm border" title="Edit">
+                                                    <i class="bi bi-pencil-square text-primary"></i>
+                                                </a>
+                                                <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-white btn-sm border" title="Details">
+                                                    <i class="bi bi-info-circle text-info"></i>
+                                                </a>
+                                                <a asp-action="Delete" asp-route-id="@item.CategoryId" class="btn btn-white btn-sm border" title="Delete">
+                                                    <i class="bi bi-trash3 text-danger"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .category-icon-circle {
+        width: 35px;
+        height: 35px;
+        background-color: rgba(13, 110, 253, 0.1);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.01);
+        transition: background-color 0.2s;
+    }
+
+    .table thead th {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: #6c757d;
+        border-bottom: none;
+    }
+
+    .btn-white {
+        background-color: #fff;
+    }
+
+        .btn-white:hover {
+            background-color: #f8f9fa;
+        }
+</style>

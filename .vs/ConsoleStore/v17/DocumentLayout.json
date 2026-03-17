@@ -3,40 +3,196 @@
   "WorkspaceRootPath": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\store\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\payment\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\payment\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\favoriteitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\favoriteitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\tfidfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\tfidfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\rlecompressionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\rlecompressionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\autocompleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\autocompleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\migrations\\20260314170242_videos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\migrations\\20260314170242_videos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\favoriteitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\favoriteitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\models\\favoriteitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\models\\favoriteitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\migrations\\20260314170242_videos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\migrations\\20260314170242_videos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\wwwroot\\images\\products\\31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -59,64 +215,16 @@
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\tfidfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\tfidfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\models\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\autocompleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\autocompleteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\service\\rlecompressionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\service\\rlecompressionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\favoriteitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\favoriteitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|solutionrelative:consolestore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D80624B3-85AF-4712-96EC-D040F96C046C}|ConsoleStore\\ConsoleStore.csproj|c:\\users\\bughi\\source\\repos\\consolestore\\consolestore\\consolestore\\consolestore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,147 +250,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:20:21.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T13:56:11.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T12:38:45.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Payment\\Result.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Payment\\Result.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Payment\\Result.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Payment\\Result.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:31:17.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-14T17:11:46.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:32:23.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Store\\Details.cshtml",
               "RelativeDocumentMoniker": "ConsoleStore\\Views\\Store\\Details.cshtml",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Store\\Details.cshtml",
               "RelativeToolTip": "ConsoleStore\\Views\\Store\\Details.cshtml",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAowJAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-13T18:07:47.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T18:07:47.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Store\\Index.cshtml",
               "RelativeDocumentMoniker": "ConsoleStore\\Views\\Store\\Index.cshtml",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Store\\Index.cshtml",
               "RelativeToolTip": "ConsoleStore\\Views\\Store\\Index.cshtml",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAANMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T12:55:54.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAgwBABAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:46:47.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "ConsoleStore\\Views\\Orders\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T13:56:11.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:20:27.488Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ConsoleStore\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAOMAAAAAAAAAAAAqwPYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-12T18:12:59.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "f5039bff-1577-480b-9b66-42c24f654f53.jpg",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
-              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
-              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-14T16:12:49.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv00AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-13T18:35:50.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
-              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
-              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-14T16:13:02.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260314170242_Videos.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Migrations\\20260314170242_Videos.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Migrations\\20260314170242_Videos.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Migrations\\20260314170242_Videos.cs",
-              "RelativeToolTip": "ConsoleStore\\Migrations\\20260314170242_Videos.cs",
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T17:02:43.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T17:11:46.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:20:28.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
-              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
-              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-14T16:12:57.701Z",
-              "EditorCaption": ""
+              "DocumentIndex": 14,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:16:08.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\FavoriteItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\FavoriteItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\FavoriteItems\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\FavoriteItems\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:29:00.409Z"
             },
             {
               "$type": "Document",
@@ -292,87 +405,488 @@
               "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Details.cshtml",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Details.cshtml",
               "RelativeToolTip": "ConsoleStore\\Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-14T16:16:40.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T16:16:40.959Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T18:35:50.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T12:55:34.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:31:33.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:26:00.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T12:23:22.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:44:24.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:44:48.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:45:51.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:45:18.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T18:46:31.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:07:32.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TfIdfService.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\TfIdfService.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Service\\TfIdfService.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\TfIdfService.cs",
+              "RelativeToolTip": "ConsoleStore\\Service\\TfIdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:50:31.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T16:33:46.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Service\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\ShoppingCart.cs",
+              "RelativeToolTip": "ConsoleStore\\Service\\ShoppingCart.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:24:36.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RleCompressionService.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\RleCompressionService.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Service\\RleCompressionService.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\RleCompressionService.cs",
+              "RelativeToolTip": "ConsoleStore\\Service\\RleCompressionService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T16:58:38.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AutocompleteService.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\AutocompleteService.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Service\\AutocompleteService.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\AutocompleteService.cs",
+              "RelativeToolTip": "ConsoleStore\\Service\\AutocompleteService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T17:03:57.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:07:08.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAywEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:46:47.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:46:22.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:45:21.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FavoriteItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\FavoriteItemsController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\FavoriteItemsController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\FavoriteItemsController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\FavoriteItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:44:37.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwCgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:39:40.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ConsoleStore\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:39:09.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:04:19.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:04:17.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:04:21.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:02:36.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:03:29.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:01:56.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "ConsoleStore\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T19:03:20.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConsoleStore\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwPoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T18:12:59.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\Product.cs",
               "RelativeToolTip": "ConsoleStore\\Models\\Product.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwCQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:49:05.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T13:49:05.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 45,
+              "Title": "FavoriteItem.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\FavoriteItem.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Models\\FavoriteItem.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\FavoriteItem.cs",
+              "RelativeToolTip": "ConsoleStore\\Models\\FavoriteItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:16:11.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\Category.cs",
+              "RelativeToolTip": "ConsoleStore\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T12:16:09.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260314170242_Videos.cs",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Migrations\\20260314170242_Videos.cs",
+              "RelativeDocumentMoniker": "ConsoleStore\\Migrations\\20260314170242_Videos.cs",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Migrations\\20260314170242_Videos.cs",
+              "RelativeToolTip": "ConsoleStore\\Migrations\\20260314170242_Videos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T17:02:43.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
+              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
+              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\2bd1abd7-3314-4eab-b5cc-bf52fccbd321.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-14T16:13:02.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "f5039bff-1577-480b-9b66-42c24f654f53.jpg",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
+              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
+              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\f5039bff-1577-480b-9b66-42c24f654f53.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-14T16:12:49.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
+              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
+              "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
+              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
+              "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\173c224e-b946-4d90-bc15-7bf12188d6a2.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-14T16:12:57.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "0c5734b1-fb56-4e04-a023-a28f080fccd3.jpg",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\0c5734b1-fb56-4e04-a023-a28f080fccd3.jpg",
               "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\0c5734b1-fb56-4e04-a023-a28f080fccd3.jpg",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\0c5734b1-fb56-4e04-a023-a28f080fccd3.jpg",
               "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\0c5734b1-fb56-4e04-a023-a28f080fccd3.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-14T16:13:00.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T16:13:00.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 48,
               "Title": "31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg",
               "RelativeDocumentMoniker": "ConsoleStore\\wwwroot\\images\\products\\31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg",
               "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\wwwroot\\images\\products\\31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg",
               "RelativeToolTip": "ConsoleStore\\wwwroot\\images\\products\\31c392bc-890c-46f3-a53a-c91768cd1ce4.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-14T16:13:04.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T16:13:04.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RleCompressionService.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\RleCompressionService.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Service\\RleCompressionService.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\RleCompressionService.cs",
-              "RelativeToolTip": "ConsoleStore\\Service\\RleCompressionService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T16:58:38.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TfIdfService.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\TfIdfService.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Service\\TfIdfService.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\TfIdfService.cs",
-              "RelativeToolTip": "ConsoleStore\\Service\\TfIdfService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:50:31.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AutocompleteService.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\AutocompleteService.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Service\\AutocompleteService.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Service\\AutocompleteService.cs",
-              "RelativeToolTip": "ConsoleStore\\Service\\AutocompleteService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T17:03:57.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 53,
               "Title": "ShoppingCartItem.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Models\\ShoppingCartItem.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Models\\ShoppingCartItem.cs",
@@ -384,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 54,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Program.cs",
@@ -396,67 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\StoreController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\StoreController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwEYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T14:07:08.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "ConsoleStore\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T12:55:34.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConsoleStore\\Views\\Checkout\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Views\\Checkout\\Index.cshtml",
-              "RelativeToolTip": "ConsoleStore\\Views\\Checkout\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-11T12:23:22.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:46:22.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:45:21.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 55,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\HomeController.cs",
@@ -468,43 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FavoriteItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\FavoriteItemsController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\FavoriteItemsController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\FavoriteItemsController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\FavoriteItemsController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:44:37.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\CheckoutController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:39:40.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "ConsoleStore\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:39:09.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 56,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Controllers\\CartController.cs",
@@ -516,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 57,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Data\\DbInitializer.cs",
@@ -528,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 58,
               "Title": "ConsoleStoreContext.cs",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\Areas\\Identity\\Data\\ConsoleStoreContext.cs",
               "RelativeDocumentMoniker": "ConsoleStore\\Areas\\Identity\\Data\\ConsoleStoreContext.cs",
@@ -540,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 59,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\bughi\\source\\repos\\ConsoleStore\\ConsoleStore\\ConsoleStore\\ConsoleStore\\appsettings.json",
               "RelativeDocumentMoniker": "ConsoleStore\\appsettings.json",

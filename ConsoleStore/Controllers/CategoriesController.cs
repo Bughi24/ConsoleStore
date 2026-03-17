@@ -36,7 +36,9 @@ namespace ConsoleStore.Controllers
             }
 
             var category = await _context.Categories
+                .Include(m => m.Products)
                 .FirstOrDefaultAsync(m => m.CategoryId == id);
+
             if (category == null)
             {
                 return NotFound();

@@ -1,5 +1,76 @@
-﻿<h2>Order Placed Successfully!</h2>
+﻿@{
+    ViewData["Title"] = "Success";
+}
 
-<p>Your order ID is: <strong>@ViewBag.OrderId</strong></p>
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <div class="mb-4">
+                <i class="bi bi-check-circle-fill text-success" style="font-size: 5rem;"></i>
+            </div>
 
-<a class="btn btn-primary" href="/Store">Continue shopping</a>
+            <h1 class="fw-bold mb-3">Thank you for your order!</h1>
+            <p class="text-muted fs-5 mb-4">
+                Your payment has been processed successfully. We've started preparing your items for shipping.
+            </p>
+
+            <div class="card border-0 shadow-sm mb-5 bg-light">
+                <div class="card-body p-4">
+                    <p class="mb-1 text-uppercase small text-muted fw-bold">Order Number</p>
+                    <h3 class="text-primary fw-bold">#@ViewBag.OrderId</h3>
+
+                    <hr class="my-3">
+
+                    <div class="d-flex justify-content-around mt-3">
+                        <div class="text-center">
+                            <i class="bi bi-envelope d-block mb-1"></i>
+                            <span class="small">Email Sent</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-box-seam d-block mb-1"></i>
+                            <span class="small">Preparing</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="bi bi-truck d-block mb-1"></i>
+                            <span class="small">Shipping Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a asp-controller="Orders" asp-action="Details" asp-route-id="@ViewBag.OrderId"
+                   class="btn btn-outline-primary btn-lg px-4 gap-3">
+                    <i class="bi bi-file-earmark-text me-2"></i>View Details
+                </a>
+                <a href="/Store" class="btn btn-primary btn-lg px-4">
+                    <i class="bi bi-cart me-2"></i>Continue Shopping
+                </a>
+            </div>
+
+            <p class="mt-5 text-muted small">
+                Having trouble? <a href="/Contact" class="text-decoration-none">Contact our support team</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* O mică animație de "pop" pentru iconiță */
+    .bi-check-circle-fill {
+        display: inline-block;
+        animation: popIn 0.5s cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    }
+
+    @@keyframes popIn {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+</style>

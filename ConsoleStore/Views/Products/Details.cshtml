@@ -1,88 +1,129 @@
 ﻿@model ConsoleStore.Models.Product
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Product Details - Admin";
 }
 
-<h1>Details</h1>
+<div class="container py-4">
+    <nav aria-label="breadcrumb" class="mb-4">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Inventory</a></li>
+            <li class="breadcrumb-item active">@Model.Name</li>
+        </ol>
+    </nav>
 
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Specification)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Specification)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Stock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Stock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Supplier)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Supplier)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DeliveryMethod)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DeliveryMethod)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagePath)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.Name)
-        </dd>
-        <dt class="col-sm-2">
-            Product Document
-        </dt>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold m-0 text-dark">Product Specifications</h2>
+        <div class="btn-group shadow-sm">
+            <a asp-action="Edit" asp-route-id="@Model.ProductId" class="btn btn-primary px-4">
+                <i class="bi bi-pencil-square me-2"></i>Edit Product
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                Back to List
+            </a>
+        </div>
+    </div>
 
-        <dd class="col-sm-10">
-            @if (!string.IsNullOrEmpty(Model.PdfPath))
-            {
-                <a href="@Model.PdfPath" target="_blank" class="btn btn-primary">
-                    View Product PDF
-                </a>
-            }
-            else
-            {
-                <span>No document available</span>
-            }
-        </dd>
-    </dl>
+    <div class="row g-4">
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm rounded-3 overflow-hidden mb-4">
+                <div class="p-4 bg-white text-center border-bottom">
+                    <img src="@Model.ImagePath" class="img-fluid rounded-3" style="max-height: 300px;" alt="@Model.Name" />
+                </div>
+                <div class="card-body">
+                    <h5 class="fw-bold mb-3 text-primary">Media Assets</h5>
+
+                    <div class="mb-3">
+                        <label class="small text-muted d-block mb-1">Technical Document</label>
+                        @if (!string.IsNullOrEmpty(Model.PdfPath))
+                        {
+                            <a href="@Model.PdfPath" target="_blank" class="btn btn-outline-danger btn-sm w-100 rounded-pill text-start">
+                                <i class="bi bi-file-earmark-pdf-fill me-2"></i>View PDF Specs
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="badge bg-light text-muted w-100 p-2">No PDF uploaded</span>
+                        }
+                    </div>
+
+                    <div>
+                        <label class="small text-muted d-block mb-1">Presentation Video</label>
+                        <button class="btn btn-outline-info btn-sm w-100 rounded-pill text-start" disabled>
+                            <i class="bi bi-play-circle-fill me-2"></i>Coming Soon
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-3 bg-light">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="text-muted">Stock Status:</span>
+                        <span class="fw-bold @(Model.Stock <= 5 ? "text-danger" : "text-success")">
+                            @Model.Stock units
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="text-muted">Category:</span>
+                        <span class="badge bg-primary">@Model.Category.Name</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm rounded-3">
+                <div class="card-body p-0">
+                    <table class="table table-borderless m-0">
+                        <tbody class="align-middle">
+                            <tr class="border-bottom">
+                                <th class="ps-4 py-3 bg-light" style="width: 30%;">Product Name</th>
+                                <td class="ps-4"><strong>@Model.Name</strong></td>
+                            </tr>
+                            <tr class="border-bottom">
+                                <th class="ps-4 py-3 bg-light">Price</th>
+                                <td class="ps-4 fw-bold text-primary fs-5">@Model.Price.ToString("0.00") €</td>
+                            </tr>
+                            <tr class="border-bottom">
+                                <th class="ps-4 py-3 bg-light">Supplier</th>
+                                <td class="ps-4">@Model.Supplier</td>
+                            </tr>
+                            <tr class="border-bottom">
+                                <th class="ps-4 py-3 bg-light">Shipping Method</th>
+                                <td class="ps-4">@Model.DeliveryMethod</td>
+                            </tr>
+                            <tr class="border-bottom">
+                                <th class="ps-4 py-3 bg-light align-top">Description</th>
+                                <td class="ps-4 py-3">@Model.Description</td>
+                            </tr>
+                            <tr>
+                                <th class="ps-4 py-3 bg-light align-top">Technical Specifications</th>
+                                <td class="ps-4 py-3">
+                                    <div class="bg-light p-3 rounded-3 small text-monospace">
+                                        @Model.Specification
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    .breadcrumb-item a {
+        text-decoration: none;
+        color: #6c757d;
+    }
+
+    .table th {
+        border-right: 1px solid #f0f0f0;
+    }
+
+    .bg-light {
+        background-color: #fcfcfc !important;
+    }
+</style>

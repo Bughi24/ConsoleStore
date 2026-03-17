@@ -1,30 +1,156 @@
 ﻿@model ConsoleStore.Models.Category
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Category Details";
 }
 
-<h1>Details</h1>
+<div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-1">
+                    <li class="breadcrumb-item"><a asp-action="Index" class="text-decoration-none">Categories</a></li>
+                    <li class="breadcrumb-item active">@Model.Name</li>
+                </ol>
+            </nav>
+            <h2 class="fw-bold m-0 text-dark">Category Overview</h2>
+        </div>
+        <div class="btn-group shadow-sm">
+            <a asp-action="Edit" asp-route-id="@Model.CategoryId" class="btn btn-warning px-4">
+                <i class="bi bi-pencil-fill me-2"></i>Edit
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-list-ul me-2"></i>Back to List
+            </a>
+        </div>
+    </div>
 
-<div>
-    <h4>Category</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-    </dl>
+    <div class="row g-4">
+        <div class="col-lg-4">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-body p-4">
+                    <div class="text-center mb-4">
+                        <div class="display-4 text-primary mb-2">
+                            <i class="bi bi-folder2-open"></i>
+                        </div>
+                        <h4 class="fw-bold">@Model.Name</h4>
+                        <hr class="mx-auto w-25 border-primary border-2">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="small text-muted text-uppercase fw-bold mb-2 d-block">Description</label>
+                        <p class="text-dark bg-light p-3 rounded-3 fs-6">
+                            @if (!string.IsNullOrEmpty(Model.Description))
+                            {
+                                @Model.Description
+                            }
+                            else
+                            {
+                                <span class="fst-italic text-muted">No detailed description available for this category.</span>
+                            }
+                        </p>
+                    </div>
+
+                    <div class="alert alert-info border-0 rounded-3 mb-0">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-info-circle-fill fs-4 me-3"></i>
+                            <div>
+                                <small class="d-block fw-bold text-uppercase">System Note</small>
+                                <small>This category groups all related gaming hardware and software.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-sm rounded-4 h-100">
+                <div class="card-header bg-white border-0 pt-4 px-4 d-flex justify-content-between align-items-center">
+                    <h5 class="fw-bold m-0"><i class="bi bi-grid-3x3-gap me-2"></i>Linked Products</h5>
+                    <span class="badge bg-primary rounded-pill">@(Model.Products?.Count ?? 0) Products</span>
+                </div>
+                <div class="card-body p-4">
+                    @if (Model.Products != null && Model.Products.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Price</th>
+                                        <th>Stock</th>
+                                        <th class="text-end">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var product in Model.Products)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="@product.ImagePath" class="rounded me-2" style="width: 40px; height: 40px; object-fit: cover; background: #f8f9fa;" />
+                                                    <span class="fw-bold text-dark">@product.Name</span>
+                                                </div>
+                                            </td>
+                                            <td class="text-primary fw-bold">@product.Price.ToString("0.00") €</td>
+                                            <td>
+                                                @if (product.Stock <= 0)
+                                                {
+                                                    <span class="badge bg-danger rounded-pill">Out of stock</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-success rounded-pill">@product.Stock items</span>
+                                                }
+                                            </td>
+                                            <td class="text-end">
+                                                <a asp-controller="Products" asp-action="Details" asp-route-id="@product.ProductId" class="btn btn-sm btn-outline-primary">
+                                                    <i class="bi bi-eye"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="bi bi-box-seam display-1 text-light mb-3"></i>
+                            <h5 class="text-muted">No products found</h5>
+                            <p class="small text-muted px-5">
+                                There are currently no products assigned to <strong>@Model.Name</strong>.
+                            </p>
+                            <a asp-controller="Products" asp-action="Create" class="btn btn-primary rounded-pill px-4 shadow-sm">
+                                <i class="bi bi-plus-lg me-2"></i>Add First Product
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CategoryId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+        content: "›";
+        font-size: 1.2rem;
+        line-height: 1;
+        vertical-align: middle;
+    }
+
+    .card {
+        border-radius: 1rem;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(13, 110, 253, 0.02);
+    }
+</style>

@@ -40,7 +40,7 @@ namespace ConsoleStore.Service
                 .Select(name => new
                 {
                     Name = name,
-                    Distance = Levenshtein(query, name.ToLower())
+                    Distance = Levenshtein(query.ToLower(), name.ToLower())
                 })
                 .Where(x =>
                     x.Name.ToLower().StartsWith(query)  

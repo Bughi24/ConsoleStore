@@ -1,40 +1,147 @@
 ﻿@model IEnumerable<ConsoleStore.Models.ShoppingCartItem>
 
-<h2>Your Cart</h2>
-
-@if (!Model.Any())
-{
-    <p>Your cart is empty.</p>
+@{
+    ViewData["Title"] = "Your Cart";
+    bool hasStockIssue = Model.Any(item => item.Quantity > item.Product.Stock);
 }
-else
-{
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Qty</th>
-                <th>Total</th>
-                <th></th>
-            </tr>
-        </thead>
 
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.Product.Name</td>
-                    <td>@item.Product.Price</td>
-                    <td>@item.Quantity</td>
-                    <td>@(item.Product.Price* item.Quantity) €</td>
-                    <td>
-                        <a class="btn btn-danger btn-sm"
-                           href ="/Cart/Remove/@item.Id">Remove</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+<div class="container py-5">
+    <div class="d-flex align-items-center mb-5">
+        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+            <i class="bi bi-cart3 fs-4"></i>
+        </div>
+        <h2 class="fw-bold m-0">Shopping Cart</h2>
+    </div>
 
-    <a href="/Checkout" class="btn btn-success btn-lg">Checkout</a>
-}
+    @if (!Model.Any())
+    {
+        <div class="text-center py-5 shadow-sm rounded-4 bg-white">
+            <i class="bi bi-cart-x display-1 text-muted opacity-25"></i>
+            <h3 class="mt-4 fw-bold">Your cart is empty</h3>
+            <p class="text-muted">It looks like you haven't added any gaming gear yet.</p>
+            <a href="/Store" class="btn btn-primary rounded-pill px-5 py-2 mt-3 shadow-sm">
+                Start Shopping
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                    <div class="table-responsive">
+                        <table class="table align-middle mb-0">
+                            <thead class="bg-light text-muted small text-uppercase">
+                                <tr>
+                                    <th class="ps-4 py-3">Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th class="text-end pe-4"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    bool isOutOfStock = item.Quantity > item.Product.Stock;
+                                    <tr class="@(isOutOfStock ? "bg-danger bg-opacity-10" : "") border-bottom">
+                                        <td class="ps-4 py-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="@item.Product.ImagePath" class="rounded-3 shadow-sm me-3" style="width: 70px; height: 70px; object-fit: cover;" />
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">@item.Product.Name</h6>
+                                                    @if (isOutOfStock)
+                                                    {
+                                                        <span class="badge bg-danger rounded-pill small">
+                                                            Only @item.Product.Stock available
+                                                        </span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="text-success small"><i class="bi bi-check2"></i> In Stock</span>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="fw-semibold">@item.Product.Price €</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <span class="badge @(isOutOfStock ? "bg-danger" : "bg-dark") rounded-pill px-3 py-2">
+                                                    @item.Quantity
+                                                </span>
+                                            </div>
+                                        </td>
+                                        <td class="fw-bold text-dark">
+                                            @(item.Product.Price* item.Quantity) €
+                                        </td>
+                                        <td class="text-end pe-4">
+                                            <a href="/Cart/Remove/@item.Id" class="btn btn-link text-danger p-0 shadow-none" title="Remove item">
+                                                <i class="bi bi-trash fs-5"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-lg rounded-4 p-4 sticky-top" style="top: 20px; z-index: 10;">
+                    <h5 class="fw-bold mb-4">Order Summary</h5>
+
+                    <div class="d-flex justify-content-between mb-3 text-muted">
+                        <span>Subtotal</span>
+                        <span>@Model.Sum(i => i.Product.Price * i.Quantity) €</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3 text-muted">
+                        <span>Shipping</span>
+                        <span class="text-success fw-bold">FREE</span>
+                    </div>
+                    <hr class="my-4">
+                    <div class="d-flex justify-content-between mb-5">
+                        <span class="h5 fw-bold">Total</span>
+                        <span class="h5 fw-bold text-primary">@Model.Sum(i => i.Product.Price * i.Quantity) €</span>
+                    </div>
+
+                    @if (hasStockIssue)
+                    {
+                        <div class="alert alert-danger border-0 rounded-3 mb-4 small">
+                            <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                            Stock issues detected. Please update your quantities to proceed.
+                        </div>
+                        <button class="btn btn-secondary btn-lg w-100 rounded-pill disabled shadow-none">
+                            Checkout Disabled
+                        </button>
+                    }
+                    else
+                    {
+                        <a href="/Checkout" class="btn btn-success btn-lg w-100 rounded-pill py-3 fw-bold shadow">
+                            Proceed to Checkout <i class="bi bi-arrow-right-short"></i>
+                        </a>
+                    }
+
+                    <div class="mt-4 text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" height="25" class="opacity-50 me-2" alt="PayPal">
+                        <i class="bi bi-shield-lock text-muted me-1"></i> <small class="text-muted">Secure Checkout</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .table thead th {
+        border-bottom: none;
+    }
+
+    .btn-link:hover {
+        opacity: 0.7;
+    }
+</style>

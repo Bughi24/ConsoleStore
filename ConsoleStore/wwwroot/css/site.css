@@ -17,7 +17,7 @@ body {
     color: #333;
 }
 
-/* Focus state pentru accesibilitate */
+
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
@@ -205,7 +205,7 @@ footer {
     text-align: right;
 }
 
-/* Definim animația de apariție */
+/* Animația de apariție */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -233,7 +233,7 @@ footer {
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
     }
 
-/* Delay-uri pentru un efect de cascadă (opțional) */
+/* Delay-uri */
 .delay-1 {
     animation-delay: 0.1s;
 }
@@ -244,4 +244,67 @@ footer {
 
 .delay-3 {
     animation-delay: 0.3s;
+}
+
+.history-card {
+    border: none;
+    border-left: 5px solid #0d6efd;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: #fff;
+}
+
+.history-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.order-number {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.price-tag {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #198754;
+}
+
+.wishlist-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wishlist-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12) !important;
+}
+
+.wishlist-img-container {
+    height: 200px;
+    overflow: hidden;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishlist-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 15px;
+    transition: transform 0.5s ease;
+}
+
+.wishlist-card:hover .wishlist-img {
+    transform: scale(1.05);
+}
+
+.price-badge {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #0d6efd;
 }

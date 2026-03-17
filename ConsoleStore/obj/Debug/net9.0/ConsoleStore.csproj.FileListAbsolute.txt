@@ -1182,4 +1182,4 @@ C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\ConsoleStore.genruntimeconfig.cache
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\ref\ConsoleStore.dll
 C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\bin\Debug\net9.0\SixLabors.ImageSharp.dll
-C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\u13ltfm0kr-{0}-6u8v9axk3y-6u8v9axk3y.gz
+C:\Users\bughi\source\repos\ConsoleStore\ConsoleStore\ConsoleStore\ConsoleStore\obj\Debug\net9.0\compressed\u13ltfm0kr-{0}-vttbhnfvct-vttbhnfvct.gz

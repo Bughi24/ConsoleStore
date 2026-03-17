@@ -24,6 +24,7 @@ namespace ConsoleStore.Controllers
         {
             var userId = _userManager.GetUserId(User);
             var cartItems = await _cart.GetCartItems();
+
             if (!cartItems.Any())
                 return BadRequest(new { success = false });
 
@@ -34,11 +35,22 @@ namespace ConsoleStore.Controllers
                 Address = data.Address,
                 City = data.City,
                 Phone = data.Phone,
+                OrderDat = DateTime.Now, 
                 Items = new List<OrderItem>()
             };
 
             foreach (var i in cartItems)
             {
+                var productInDb = await _context.Products.FindAsync(i.ProductId);
+
+                if (productInDb != null)
+                {
+          
+                    productInDb.Stock -= i.Quantity;
+
+                    if (productInDb.Stock < 0) productInDb.Stock = 0;
+                }
+
                 order.Items.Add(new OrderItem
                 {
                     ProductId = i.ProductId,
@@ -48,7 +60,9 @@ namespace ConsoleStore.Controllers
             }
 
             _context.Orders.Add(order);
+
             await _context.SaveChangesAsync();
+
             await _cart.ClearCart();
 
             return Ok(new { success = true, orderId = order.OrderId });

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Specialized;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
+using System.Runtime.InteropServices;
 
 namespace ConsoleStore.Controllers
 {
@@ -37,42 +38,72 @@ namespace ConsoleStore.Controllers
         }
 
         [HttpPost]
+        [Authorize] 
         public async Task<IActionResult> Index(string customerName, string address, string city, string phone)
         {
             var cartItems = await _cart.GetCartItems();
 
-            if(!cartItems.Any())
+            if (!cartItems.Any())
             {
                 return RedirectToAction("Index", "Store");
             }
 
-            var order = new Order
+            using (var transaction = await _context.Database.BeginTransactionAsync())
             {
-                CustomerName = customerName,
-                Address = address,
-                City = city,
-                Phone = phone,
-                UserId = _userManager.GetUserId(User),
-                Items = new List<OrderItem>()
-            };
-
-            foreach (var item in cartItems)
-            {
-                order.Items.Add(new OrderItem
+                try
                 {
-                    ProductId = item.ProductId,
-                    Quantity = item.Quantity,
-                    Price = item.Product.Price
-                });
+                    var order = new Order
+                    {
+                        CustomerName = customerName,
+                        Address = address,
+                        City = city,
+                        Phone = phone,
+                        UserId = _userManager.GetUserId(User),
+                        OrderDat = DateTime.Now,
+                        Items = new List<OrderItem>()
+                    };
+
+                    foreach (var item in cartItems)
+                    {
+                  
+                        var product = await _context.Products.FindAsync(item.ProductId);
+
+                        if (product != null)
+                        {
+                            if (product.Stock < item.Quantity)
+                            {
+                                ModelState.AddModelError("", $"Stoc insuficient pentru produsul: {product.Name}");
+                                return View(); 
+                            }
+
+                            product.Stock -= item.Quantity;
+                        }
+
+                        order.Items.Add(new OrderItem
+                        {
+                            ProductId = item.ProductId,
+                            Quantity = item.Quantity,
+                            Price = item.Product.Price
+                        });
+                    }
+
+                    _context.Orders.Add(order);
+                    await _context.SaveChangesAsync();
+
+                    await transaction.CommitAsync();
+
+                    await _cart.ClearCart();
+
+                    return RedirectToAction("Success", new { id = order.OrderId });
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync();
+                    ModelState.AddModelError("", "A apărut o eroare la procesarea comenzii. Vă rugăm să reîncercați.");
+                    return View();
+                }
             }
-            _context.Orders.Add(order);
-            await _context.SaveChangesAsync();
-
-            await _cart.ClearCart();
-
-            return RedirectToAction("Success", new {id = order.OrderId});
         }
-
         public ActionResult Success(int id)
         {
             ViewBag.OrderId = id;

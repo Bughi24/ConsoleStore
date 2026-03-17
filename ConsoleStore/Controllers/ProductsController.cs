@@ -62,7 +62,7 @@ namespace ConsoleStore.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Procesare Imagine
+            
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     string uploadFolder = Path.Combine(_env.WebRootPath, "images/products");
@@ -203,7 +203,7 @@ namespace ConsoleStore.Controllers
                         productToUpdate.PdfPath = "/pdf/" + pdfName;
                     }
 
-                    // Procesare Video (CORECȚIE: Salvăm în productToUpdate)
+                    // Procesare Video 
                     if (videoFile != null && videoFile.Length > 0)
                     {
                         string videoFolder = Path.Combine(_env.WebRootPath, "videos");
