@@ -19,6 +19,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<TfIdfService>();
 builder.Services.AddScoped<AutocompleteService>();
 builder.Services.AddScoped<RleCompressionService>();
+builder.Services.AddScoped<LuceneService>();
 
 
 

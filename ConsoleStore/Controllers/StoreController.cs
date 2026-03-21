@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ConsoleStore.Data;
-using Microsoft.Data.SqlClient;
+﻿using ConsoleStore.Data;
+using ConsoleStore.Models;
 using ConsoleStore.Service;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace ConsoleStore.Controllers
@@ -13,12 +15,14 @@ namespace ConsoleStore.Controllers
         private readonly TfIdfService _tfidf;
         private readonly AutocompleteService _autocompleteService;
         private readonly RleCompressionService _rle;
-        public StoreController(ConsoleStoreContext context, TfIdfService tfIdf, AutocompleteService autocompleteService, RleCompressionService rle)
+        private readonly LuceneService _luceneService;
+        public StoreController(ConsoleStoreContext context, TfIdfService tfIdf, AutocompleteService autocompleteService, RleCompressionService rle, LuceneService luceneService )
         {
             _context = context;
             _tfidf = tfIdf;
             _autocompleteService = autocompleteService;
             _rle = rle;
+            _luceneService = luceneService;
         }
 
         //GET: /Store
@@ -84,6 +88,47 @@ namespace ConsoleStore.Controllers
             var suggestions = _autocompleteService.GetSuggestions(term, products);
 
             return Json(suggestions);
+        }
+
+        public async Task<IActionResult> AdvancedSearch(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query)) return RedirectToAction("Index");
+
+           
+            var luceneResults = _luceneService.SearchWithScore(query);
+
+            if (luceneResults.Count == 0)
+            {
+                ViewBag.Message = "Nu s-au găsit rezultate în documentele PDF.";
+                return View("AdvancedResults", new List<ProductScoreViewModel>());
+            }
+
+            var ids = luceneResults.Keys.ToList();
+
+            
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .Where(p => ids.Contains(p.ProductId))
+                .ToListAsync();
+
+            var model = products.Select(p => new ProductScoreViewModel
+            {
+                Product = p,
+                Score = luceneResults.ContainsKey(p.ProductId) ? luceneResults[p.ProductId] : 0f
+            })
+            .OrderByDescending(x => x.Score) 
+            .ToList();
+
+            ViewBag.Query = query;
+            return View("AdvancedResults", model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Reindex()
+        {
+            var products = await _context.Products.ToListAsync();
+            _luceneService.BuildIndex(products);
+            return Content("Indexul Lucene a fost reconstruit cu succes!");
         }
     }
 }
