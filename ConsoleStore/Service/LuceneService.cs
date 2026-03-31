@@ -47,7 +47,7 @@ namespace ConsoleStore.Service
 
         private string ExtractTextFromPDF(int productId)
         {
-           
+
             string filePath = Path.Combine(_pdfFolderPath, $"{productId}.pdf");
 
             try
@@ -67,34 +67,7 @@ namespace ConsoleStore.Service
                 return "";
             }
         }
-
-        public List<int> Search(string searchTerm)
-        {
-            if (string.IsNullOrWhiteSpace(searchTerm)) return new List<int>();
-
-            using var dir = FSDirectory.Open(_indexPath);
-            if (!DirectoryReader.IndexExists(dir)) return new List<int>();
-
-            using var reader = DirectoryReader.Open(dir);
-            var searcher = new IndexSearcher(reader);
-            var analyzer = new StandardAnalyzer(AppLuceneVersion);
-
-            string[] fields = { "Name", "PdfContent" };
-            var queryParser = new MultiFieldQueryParser(AppLuceneVersion, fields, analyzer);
-
-            try
-            { 
-                var query = queryParser.Parse(searchTerm.Trim() + "*");
-                var hits = searcher.Search(query, 20).ScoreDocs;
-
-                return hits.Select(hit => int.Parse(searcher.Doc(hit.Doc).Get("Id"))).ToList();
-            }
-            catch (ParseException)
-            {
-                return new List<int>();
-            }
-        }
-
+            
         public Dictionary<int, float> SearchWithScore(string searchTerm)
         {
             var results = new Dictionary<int, float>();

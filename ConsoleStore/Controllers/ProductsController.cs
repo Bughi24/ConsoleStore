@@ -151,6 +151,7 @@ namespace ConsoleStore.Controllers
                     productToUpdate.Description = product.Description;
                     productToUpdate.Price = product.Price;
                     productToUpdate.CategoryId = product.CategoryId;
+                    productToUpdate.Stock = product.Stock;
 
                     // Procesare Imagine
                     if (imageFile != null && imageFile.Length > 0)

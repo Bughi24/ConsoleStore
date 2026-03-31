@@ -1,0 +1,87 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Setări Profil";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+<style>
+    .profile-card {
+        border-radius: 15px;
+        border: none;
+        background: #ffffff;
+    }
+
+    .profile-header-gradient {
+        background: linear-gradient(135deg, #0d6efd 0%, #003d99 100%);
+        color: white;
+        border-radius: 15px 15px 0 0;
+        padding: 2rem;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+        border-color: #0d6efd;
+    }
+
+    .btn-save {
+        border-radius: 10px;
+        padding: 12px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+
+        .btn-save:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+        }
+</style>
+
+<div class="container mt-2">
+    <partial name="_StatusMessage" for="StatusMessage" />
+
+    <div class="profile-card shadow-lg mx-auto" style="max-width: 700px;">
+        <div class="profile-header-gradient text-center">
+            <div class="mb-3">
+                <i class="bi bi-person-circle display-1"></i>
+            </div>
+            <h3 class="fw-bold mb-0">@ViewData["Title"]</h3>
+            <p class="opacity-75 mb-0">Gestionează informațiile contului tău</p>
+        </div>
+
+        <div class="card-body p-4 p-md-5">
+            <form id="profile-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label asp-for="Username" class="form-label fw-bold text-muted small text-uppercase">Nume Utilizator</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0"><i class="bi bi-person text-muted"></i></span>
+                            <input asp-for="Username" class="form-control bg-light border-start-0" placeholder="Username" disabled />
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <label asp-for="Input.PhoneNumber" class="form-label fw-bold text-dark small text-uppercase">Număr de Telefon</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0"><i class="bi bi-telephone text-primary"></i></span>
+                            <input asp-for="Input.PhoneNumber" class="form-control border-start-0 shadow-none" placeholder="Introdu numărul tău..." />
+                        </div>
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger small"></span>
+                    </div>
+
+                    <div class="col-12 mt-5">
+                        <button id="update-profile-button" type="submit" class="btn btn-primary btn-save w-100 shadow-sm text-uppercase">
+                            <i class="bi bi-check2-circle me-2"></i> Salvează Modificările
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
